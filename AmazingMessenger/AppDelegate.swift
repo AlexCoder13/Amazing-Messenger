@@ -10,20 +10,22 @@ import UIKit
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
-
-        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-            
-            let window = UIWindow (frame: UIScreen.main.bounds)
-            window.rootViewController = ViewController()
-            window.makeKeyAndVisible()
-            self.window = window
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-            return true
-        }
+        print("- Application moved from <Not Running> to <Active>: <\(#function)>")
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = ViewController()
+        window.makeKeyAndVisible()
+        self.window = window
+        
+        return true
+    }
     
     
     func applicationDidBecomeActive(_: UIApplication) {
-        print("- Application moved from <Not Running/Inactive> to <Active>: <\(#function)>")
+        print("- Application moved from <Inactive> to <Active>: <\(#function)>")
     }
     
     func applicationWillResignActive(_: UIApplication) {

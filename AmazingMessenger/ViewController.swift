@@ -8,7 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    private lazy var button: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Go to next screen", for: .normal)
+        button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .green
+        return button
+    }()
+    
     override func loadView() {
         super.loadView()
         print("- - Called method: \(#function)")
@@ -16,7 +25,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.lightGray
+        setupView()
+        setupConstraints()
         print("- - Called method: \(#function)")
     }
     
@@ -39,5 +49,26 @@ class ViewController: UIViewController {
         super.viewDidDisappear(animated)
         print("- - Called method: \(#function)")
     }
+    
+    private func setupView() {
+        view.addSubview(button)
+        view.backgroundColor = .white
+    }
+    
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            button.widthAnchor.constraint(equalToConstant: 150),
+            button.heightAnchor.constraint(equalToConstant: 70)
+        ])
+    }
+    
+    @objc private func pushButton() {
+        let controller = UIViewController()
+        controller.view.backgroundColor = .cyan
+        self.present(controller, animated: true)
+    }
+    
 }
 
