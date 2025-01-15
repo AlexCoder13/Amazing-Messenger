@@ -14,8 +14,17 @@ class ViewController: UIViewController {
         button.setTitle("Go to next screen", for: .normal)
         button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .green
+        button.backgroundColor = .lightGray
         return button
+    }()
+    
+    private lazy var upCenterLabel: UILabel = {
+        let upCenterLabel = UILabel()
+        upCenterLabel.text = "My Profile"
+        upCenterLabel.textColor = .black
+        upCenterLabel.backgroundColor = .lightGray
+        upCenterLabel.translatesAutoresizingMaskIntoConstraints = false
+        return upCenterLabel
     }()
     
     override func loadView() {
@@ -51,8 +60,8 @@ class ViewController: UIViewController {
     }
     
     private func setupView() {
-        view.addSubview(button)
         view.backgroundColor = .white
+        view.addSubview(button)
     }
     
     private func setupConstraints() {
@@ -60,13 +69,19 @@ class ViewController: UIViewController {
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             button.widthAnchor.constraint(equalToConstant: 150),
-            button.heightAnchor.constraint(equalToConstant: 70)
+            button.heightAnchor.constraint(equalToConstant: 70),
+            
+//            upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//            upCenterLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+//            upCenterLabel.widthAnchor.constraint(equalToConstant: 120),
+//            upCenterLabel.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
     @objc private func pushButton() {
         let controller = UIViewController()
-        controller.view.backgroundColor = .cyan
+        controller.view.backgroundColor = .white
+        controller.view.addSubview(upCenterLabel)
         self.present(controller, animated: true)
     }
     

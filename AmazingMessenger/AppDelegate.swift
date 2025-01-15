@@ -9,11 +9,10 @@ import UIKit
 
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
+    
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        print("- Application moved from <Not Running> to <Active>: <\(#function)>")
         
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = ViewController()
@@ -25,23 +24,23 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func applicationDidBecomeActive(_: UIApplication) {
-        print("- Application moved from <Inactive> to <Active>: <\(#function)>")
+        AppStateManager.shared.changeAppState(newState: .active)
     }
     
     func applicationWillResignActive(_: UIApplication) {
-        print("- Application moved from <Active> to <Inactive>: <\(#function)>")
+        AppStateManager.shared.changeAppState(newState: .inactive)
     }
     
     func applicationDidEnterBackground(_: UIApplication) {
-        print("- Application moved from <Inactive> to <Background>: <\(#function)>")
+        AppStateManager.shared.changeAppState(newState: .background)
     }
     
     func applicationWillEnterForeground(_: UIApplication) {
-        print("- Application moved from <Background> to <Inactive>: <\(#function)>")
+        AppStateManager.shared.changeAppState(newState: .inactive)
     }
     
     func applicationWillTerminate(_: UIApplication) {
-        print("- Application moved from <Inactive> to <Not Running>: <\(#function)>")
+        AppStateManager.shared.changeAppState(newState: .notRunning)
     }
 }
 
