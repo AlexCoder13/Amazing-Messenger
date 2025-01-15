@@ -71,10 +71,10 @@ class ViewController: UIViewController {
             button.widthAnchor.constraint(equalToConstant: 150),
             button.heightAnchor.constraint(equalToConstant: 70),
             
-//            upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            upCenterLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-//            upCenterLabel.widthAnchor.constraint(equalToConstant: 120),
-//            upCenterLabel.heightAnchor.constraint(equalToConstant: 50)
+            //            upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            //            upCenterLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            //            upCenterLabel.widthAnchor.constraint(equalToConstant: 120),
+            //            upCenterLabel.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
@@ -82,6 +82,14 @@ class ViewController: UIViewController {
         let controller = UIViewController()
         controller.view.backgroundColor = .white
         controller.view.addSubview(upCenterLabel)
+        func setupConstraints() {
+            NSLayoutConstraint.activate([
+                upCenterLabel.centerXAnchor.constraint(equalTo: controller.view.centerXAnchor),
+                upCenterLabel.centerYAnchor.constraint(equalTo: controller.view.centerYAnchor),
+                upCenterLabel.widthAnchor.constraint(equalToConstant: 120),
+                upCenterLabel.heightAnchor.constraint(equalToConstant: 50)
+            ])
+        }
         self.present(controller, animated: true)
     }
     

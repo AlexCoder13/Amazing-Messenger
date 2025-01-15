@@ -555,6 +555,67 @@
 			<key>uniqueIdentifier</key>
 			<string>54ACB9A6-0164-4B57-BEDB-3E3A5B6F0287</string>
 		</dict>
+		<key>5559E302-8C79-482C-83FD-A818BFCBBF12</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>EB2CF94B-28DD-4C10-ABAB-276AB28A3A35</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.16_00-12-17-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758668337.858688</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>5559E302-8C79-482C-83FD-A818BFCBBF12</string>
+		</dict>
 		<key>5EC4F5E4-48C0-4644-BD3F-CB86A6B34BA8</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
