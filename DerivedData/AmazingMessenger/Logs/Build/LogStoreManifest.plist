@@ -6,6 +6,90 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
+		<key>01F4B5F1-D073-446B-AE7B-3CFE5464701E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01F4B5F1-D073-446B-AE7B-3CFE5464701E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749931.582919</real>
+			<key>timeStoppedRecording</key>
+			<real>758749932.19873202</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>01F4B5F1-D073-446B-AE7B-3CFE5464701E</string>
+		</dict>
+		<key>024BB8D7-9269-4CCD-8461-57E4D26106C5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>024BB8D7-9269-4CCD-8461-57E4D26106C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741781.65425396</real>
+			<key>timeStoppedRecording</key>
+			<real>758741782.318174</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>024BB8D7-9269-4CCD-8461-57E4D26106C5</string>
+		</dict>
 		<key>068F0266-887F-40D5-B425-94D1F01F7479</key>
 		<dict>
 			<key>className</key>
@@ -47,6 +131,48 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>068F0266-887F-40D5-B425-94D1F01F7479</string>
+		</dict>
+		<key>07736ECB-BF63-4D85-A071-894441E81D31</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>07736ECB-BF63-4D85-A071-894441E81D31.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758740942.37184203</real>
+			<key>timeStoppedRecording</key>
+			<real>758740942.99126506</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>07736ECB-BF63-4D85-A071-894441E81D31</string>
 		</dict>
 		<key>0910FB9B-8344-4AE9-9ABE-A26AFF576855</key>
 		<dict>
@@ -90,6 +216,90 @@
 			<key>uniqueIdentifier</key>
 			<string>0910FB9B-8344-4AE9-9ABE-A26AFF576855</string>
 		</dict>
+		<key>09514C70-4D7C-46C6-8A59-68CB250541E9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>09514C70-4D7C-46C6-8A59-68CB250541E9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749689.97687197</real>
+			<key>timeStoppedRecording</key>
+			<real>758749690.64223301</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>09514C70-4D7C-46C6-8A59-68CB250541E9</string>
+		</dict>
+		<key>09ECFC6F-FD0D-41E8-A8CF-86551FADEA0D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>09ECFC6F-FD0D-41E8-A8CF-86551FADEA0D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754157.49085796</real>
+			<key>timeStoppedRecording</key>
+			<real>758754157.54857397</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>09ECFC6F-FD0D-41E8-A8CF-86551FADEA0D</string>
+		</dict>
 		<key>0ACBADF5-F485-405E-8915-A6D01D5CC673</key>
 		<dict>
 			<key>className</key>
@@ -132,6 +342,48 @@
 			<key>uniqueIdentifier</key>
 			<string>0ACBADF5-F485-405E-8915-A6D01D5CC673</string>
 		</dict>
+		<key>149FAA51-3FBC-4B99-8282-34A3E16F907E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>149FAA51-3FBC-4B99-8282-34A3E16F907E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746151.69367194</real>
+			<key>timeStoppedRecording</key>
+			<real>758746152.443066</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>149FAA51-3FBC-4B99-8282-34A3E16F907E</string>
+		</dict>
 		<key>14E1E42A-E3E7-4F77-9F2C-3E6E4E865583</key>
 		<dict>
 			<key>className</key>
@@ -173,6 +425,48 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>14E1E42A-E3E7-4F77-9F2C-3E6E4E865583</string>
+		</dict>
+		<key>16CAF73E-1991-44DC-8D74-6FA98D7533A9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>16CAF73E-1991-44DC-8D74-6FA98D7533A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741948.17150497</real>
+			<key>timeStoppedRecording</key>
+			<real>758741948.69996905</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>16CAF73E-1991-44DC-8D74-6FA98D7533A9</string>
 		</dict>
 		<key>1842E503-A89F-4A40-AED6-3C383C7C4948</key>
 		<dict>
@@ -300,6 +594,384 @@
 			<key>uniqueIdentifier</key>
 			<string>19613BC5-1FF4-4C91-9770-436AD19D4521</string>
 		</dict>
+		<key>1B4496CC-A26F-41B4-A7E7-9434B20692B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1B4496CC-A26F-41B4-A7E7-9434B20692B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758739641.94462001</real>
+			<key>timeStoppedRecording</key>
+			<real>758739642.91771305</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>1B4496CC-A26F-41B4-A7E7-9434B20692B4</string>
+		</dict>
+		<key>1C0F3DEF-EE8E-49D7-AA9F-D99B5DA464AD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1C0F3DEF-EE8E-49D7-AA9F-D99B5DA464AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741530.86910999</real>
+			<key>timeStoppedRecording</key>
+			<real>758741531.53114498</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>1C0F3DEF-EE8E-49D7-AA9F-D99B5DA464AD</string>
+		</dict>
+		<key>1D9D7EBF-1C39-4A9A-8FD1-130CDA01F2C3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1D9D7EBF-1C39-4A9A-8FD1-130CDA01F2C3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758753823.72144699</real>
+			<key>timeStoppedRecording</key>
+			<real>758753825.024598</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>1D9D7EBF-1C39-4A9A-8FD1-130CDA01F2C3</string>
+		</dict>
+		<key>1F541C0D-EB6A-42DC-B811-0701C6DBF59F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F541C0D-EB6A-42DC-B811-0701C6DBF59F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749665.11522901</real>
+			<key>timeStoppedRecording</key>
+			<real>758749665.79308295</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>1F541C0D-EB6A-42DC-B811-0701C6DBF59F</string>
+		</dict>
+		<key>1F89C676-BA1E-4CFF-8BEB-D1474962CC43</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F89C676-BA1E-4CFF-8BEB-D1474962CC43.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758753846.88731503</real>
+			<key>timeStoppedRecording</key>
+			<real>758753846.94417</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>1F89C676-BA1E-4CFF-8BEB-D1474962CC43</string>
+		</dict>
+		<key>203D56D7-E3AB-4516-8592-869E5A6ED3F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>203D56D7-E3AB-4516-8592-869E5A6ED3F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746374.09622598</real>
+			<key>timeStoppedRecording</key>
+			<real>758746374.88518703</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>203D56D7-E3AB-4516-8592-869E5A6ED3F1</string>
+		</dict>
+		<key>2298AB74-E8AD-4DCA-A8E6-B26D5B4D29B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2298AB74-E8AD-4DCA-A8E6-B26D5B4D29B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749725.271492</real>
+			<key>timeStoppedRecording</key>
+			<real>758749725.94351804</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>2298AB74-E8AD-4DCA-A8E6-B26D5B4D29B3</string>
+		</dict>
+		<key>23732119-F656-4386-9D54-CD1F685DB9DB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>23732119-F656-4386-9D54-CD1F685DB9DB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754133.20927203</real>
+			<key>timeStoppedRecording</key>
+			<real>758754133.79797494</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>23732119-F656-4386-9D54-CD1F685DB9DB</string>
+		</dict>
+		<key>23B220EB-7B72-498E-8882-DF27A31DEAE5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>23B220EB-7B72-498E-8882-DF27A31DEAE5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741697.06098998</real>
+			<key>timeStoppedRecording</key>
+			<real>758741697.58438098</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>23B220EB-7B72-498E-8882-DF27A31DEAE5</string>
+		</dict>
 		<key>2A2099F5-2D6D-4EA9-9563-1899772FDDDF</key>
 		<dict>
 			<key>className</key>
@@ -342,6 +1014,90 @@
 			<key>uniqueIdentifier</key>
 			<string>2A2099F5-2D6D-4EA9-9563-1899772FDDDF</string>
 		</dict>
+		<key>2EEA480B-C5A6-4724-94F0-4F97A0E96B53</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2EEA480B-C5A6-4724-94F0-4F97A0E96B53.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752578.04494798</real>
+			<key>timeStoppedRecording</key>
+			<real>758752578.88739395</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>2EEA480B-C5A6-4724-94F0-4F97A0E96B53</string>
+		</dict>
+		<key>31E52EA7-5606-4D4B-956C-C2D90A7FA130</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31E52EA7-5606-4D4B-956C-C2D90A7FA130.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752599.49302006</real>
+			<key>timeStoppedRecording</key>
+			<real>758752600.18128097</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>31E52EA7-5606-4D4B-956C-C2D90A7FA130</string>
+		</dict>
 		<key>33041D8C-67C6-45D6-8AD1-B4EA7D712C0F</key>
 		<dict>
 			<key>className</key>
@@ -383,6 +1139,258 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>33041D8C-67C6-45D6-8AD1-B4EA7D712C0F</string>
+		</dict>
+		<key>36772AAC-BB7A-4823-B150-A3DC76B5FFB7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>36772AAC-BB7A-4823-B150-A3DC76B5FFB7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741668.45622301</real>
+			<key>timeStoppedRecording</key>
+			<real>758741668.97585595</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>36772AAC-BB7A-4823-B150-A3DC76B5FFB7</string>
+		</dict>
+		<key>3712749C-0517-4DFC-A802-8A491B0A34BD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3712749C-0517-4DFC-A802-8A491B0A34BD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758750540.479267</real>
+			<key>timeStoppedRecording</key>
+			<real>758750541.15177596</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>3712749C-0517-4DFC-A802-8A491B0A34BD</string>
+		</dict>
+		<key>3BA33FEE-709A-49F5-85E3-F1CB3719A075</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3BA33FEE-709A-49F5-85E3-F1CB3719A075.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758751761.78983903</real>
+			<key>timeStoppedRecording</key>
+			<real>758751762.82467902</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>3BA33FEE-709A-49F5-85E3-F1CB3719A075</string>
+		</dict>
+		<key>3BB71185-8AEF-48D4-BE02-34FDC82B2377</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3BB71185-8AEF-48D4-BE02-34FDC82B2377.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758739780.06125796</real>
+			<key>timeStoppedRecording</key>
+			<real>758739780.75133097</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>3BB71185-8AEF-48D4-BE02-34FDC82B2377</string>
+		</dict>
+		<key>3C33413B-7897-4FBA-B623-7622AC474DD9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C33413B-7897-4FBA-B623-7622AC474DD9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741017.27005506</real>
+			<key>timeStoppedRecording</key>
+			<real>758741017.77680397</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>3C33413B-7897-4FBA-B623-7622AC474DD9</string>
+		</dict>
+		<key>3F2ADE91-3C2A-40FA-8640-B7DF6F23AD6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3F2ADE91-3C2A-40FA-8640-B7DF6F23AD6A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752416.18700194</real>
+			<key>timeStoppedRecording</key>
+			<real>758752416.73285604</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>3F2ADE91-3C2A-40FA-8640-B7DF6F23AD6A</string>
 		</dict>
 		<key>3F330A2E-3141-4DD0-A517-0FC500E25DD0</key>
 		<dict>
@@ -468,6 +1476,90 @@
 			<key>uniqueIdentifier</key>
 			<string>3F60C165-9956-48DF-9840-D77BFC2A201A</string>
 		</dict>
+		<key>40DF478F-8FB2-4A79-8829-8C373EC98CA5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40DF478F-8FB2-4A79-8829-8C373EC98CA5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741720.61198604</real>
+			<key>timeStoppedRecording</key>
+			<real>758741721.13635397</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>40DF478F-8FB2-4A79-8829-8C373EC98CA5</string>
+		</dict>
+		<key>41D75EA3-08D9-43DD-ABC6-75D8805C4AB8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>41D75EA3-08D9-43DD-ABC6-75D8805C4AB8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749313.02584398</real>
+			<key>timeStoppedRecording</key>
+			<real>758749313.85634995</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>41D75EA3-08D9-43DD-ABC6-75D8805C4AB8</string>
+		</dict>
 		<key>44C6AC1D-2D12-4097-B249-7F05F9457021</key>
 		<dict>
 			<key>className</key>
@@ -509,6 +1601,48 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>44C6AC1D-2D12-4097-B249-7F05F9457021</string>
+		</dict>
+		<key>45E4F51E-EA96-49A3-9982-E18B19652726</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>45E4F51E-EA96-49A3-9982-E18B19652726.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741379.56788695</real>
+			<key>timeStoppedRecording</key>
+			<real>758741380.23706496</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>45E4F51E-EA96-49A3-9982-E18B19652726</string>
 		</dict>
 		<key>471BC1AB-26E9-4437-A828-59502F2FB2EB</key>
 		<dict>
@@ -552,6 +1686,90 @@
 			<key>uniqueIdentifier</key>
 			<string>471BC1AB-26E9-4437-A828-59502F2FB2EB</string>
 		</dict>
+		<key>4810CD49-51F0-4AB1-A50B-5E05B9F545E8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4810CD49-51F0-4AB1-A50B-5E05B9F545E8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749411.67538404</real>
+			<key>timeStoppedRecording</key>
+			<real>758749412.43961203</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>4810CD49-51F0-4AB1-A50B-5E05B9F545E8</string>
+		</dict>
+		<key>4A02325E-7C6A-4C30-9657-82638A1F48B8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4A02325E-7C6A-4C30-9657-82638A1F48B8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741145.06899297</real>
+			<key>timeStoppedRecording</key>
+			<real>758741145.74236202</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>4A02325E-7C6A-4C30-9657-82638A1F48B8</string>
+		</dict>
 		<key>56EC1106-17CE-4261-9D04-126858F68234</key>
 		<dict>
 			<key>className</key>
@@ -593,6 +1811,132 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>56EC1106-17CE-4261-9D04-126858F68234</string>
+		</dict>
+		<key>58864B5F-DA51-4074-9475-2C98A681861B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>58864B5F-DA51-4074-9475-2C98A681861B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749624.47331202</real>
+			<key>timeStoppedRecording</key>
+			<real>758749624.76634002</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>58864B5F-DA51-4074-9475-2C98A681861B</string>
+		</dict>
+		<key>59C5F48C-2FCE-4FF1-8D4D-C5D431521E6D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59C5F48C-2FCE-4FF1-8D4D-C5D431521E6D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749379.42669594</real>
+			<key>timeStoppedRecording</key>
+			<real>758749380.044402</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>59C5F48C-2FCE-4FF1-8D4D-C5D431521E6D</string>
+		</dict>
+		<key>5F436A33-F463-42DC-AD17-50F7705A99A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5F436A33-F463-42DC-AD17-50F7705A99A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752300.99388397</real>
+			<key>timeStoppedRecording</key>
+			<real>758752301.65783501</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>5F436A33-F463-42DC-AD17-50F7705A99A5</string>
 		</dict>
 		<key>6145CDCC-6CF6-4B38-B69A-26632C661F1D</key>
 		<dict>
@@ -636,6 +1980,48 @@
 			<key>uniqueIdentifier</key>
 			<string>6145CDCC-6CF6-4B38-B69A-26632C661F1D</string>
 		</dict>
+		<key>622D02C6-C0A2-4C7D-8156-01E02A4F4E7C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>622D02C6-C0A2-4C7D-8156-01E02A4F4E7C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746134.69489598</real>
+			<key>timeStoppedRecording</key>
+			<real>758746135.59386599</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>622D02C6-C0A2-4C7D-8156-01E02A4F4E7C</string>
+		</dict>
 		<key>62DECC2B-E7D0-44FC-9833-5E4C968EE58E</key>
 		<dict>
 			<key>className</key>
@@ -677,6 +2063,90 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>62DECC2B-E7D0-44FC-9833-5E4C968EE58E</string>
+		</dict>
+		<key>63867679-06DD-487D-B18E-D166BA1D7D5F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>63867679-06DD-487D-B18E-D166BA1D7D5F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746854.198807</real>
+			<key>timeStoppedRecording</key>
+			<real>758746854.82370603</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>63867679-06DD-487D-B18E-D166BA1D7D5F</string>
+		</dict>
+		<key>66DF1D2F-D621-48BA-87F2-14FA689BD224</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66DF1D2F-D621-48BA-87F2-14FA689BD224.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754184.04154897</real>
+			<key>timeStoppedRecording</key>
+			<real>758754184.11906803</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>66DF1D2F-D621-48BA-87F2-14FA689BD224</string>
 		</dict>
 		<key>675F2D4E-6C55-4461-9572-AA95CEA85A58</key>
 		<dict>
@@ -762,6 +2232,174 @@
 			<key>uniqueIdentifier</key>
 			<string>67F5F849-E77E-437A-BF2A-63B67E73417C</string>
 		</dict>
+		<key>70052E7D-3272-4780-A42D-F2D19319AF63</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70052E7D-3272-4780-A42D-F2D19319AF63.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746171.293378</real>
+			<key>timeStoppedRecording</key>
+			<real>758746171.97623599</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>70052E7D-3272-4780-A42D-F2D19319AF63</string>
+		</dict>
+		<key>70AF0DBD-8F4B-42D5-AE3F-3F61933A38C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70AF0DBD-8F4B-42D5-AE3F-3F61933A38C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758750462.93108904</real>
+			<key>timeStoppedRecording</key>
+			<real>758750463.95813</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>70AF0DBD-8F4B-42D5-AE3F-3F61933A38C0</string>
+		</dict>
+		<key>71EF9405-D0F5-433B-BC1A-46D7E6DE3778</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>71EF9405-D0F5-433B-BC1A-46D7E6DE3778.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749091.09317899</real>
+			<key>timeStoppedRecording</key>
+			<real>758749091.98471904</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>71EF9405-D0F5-433B-BC1A-46D7E6DE3778</string>
+		</dict>
+		<key>73C06F4D-34FB-4ADB-AEF5-0090CC31F98E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>73C06F4D-34FB-4ADB-AEF5-0090CC31F98E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741091.81959295</real>
+			<key>timeStoppedRecording</key>
+			<real>758741092.34809399</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>73C06F4D-34FB-4ADB-AEF5-0090CC31F98E</string>
+		</dict>
 		<key>74ABC518-963A-46EE-829B-A04C0F106657</key>
 		<dict>
 			<key>className</key>
@@ -846,6 +2484,132 @@
 			<key>uniqueIdentifier</key>
 			<string>76F99095-F95F-4AF3-B99C-D101219A4715</string>
 		</dict>
+		<key>78FF96C0-8C4B-4B32-8716-190FF6DA90B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78FF96C0-8C4B-4B32-8716-190FF6DA90B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741620.95848894</real>
+			<key>timeStoppedRecording</key>
+			<real>758741621.47467101</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>78FF96C0-8C4B-4B32-8716-190FF6DA90B4</string>
+		</dict>
+		<key>7B8EA77C-3144-4F88-8542-E96192566FD9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7B8EA77C-3144-4F88-8542-E96192566FD9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741631.34971201</real>
+			<key>timeStoppedRecording</key>
+			<real>758741631.86539805</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>7B8EA77C-3144-4F88-8542-E96192566FD9</string>
+		</dict>
+		<key>7C65AE4D-020C-40D7-B2BB-9ADD71B208C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C65AE4D-020C-40D7-B2BB-9ADD71B208C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741809.15648496</real>
+			<key>timeStoppedRecording</key>
+			<real>758741809.81886697</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>7C65AE4D-020C-40D7-B2BB-9ADD71B208C6</string>
+		</dict>
 		<key>7DF7A736-FE7C-4386-BF49-27937C62ED7A</key>
 		<dict>
 			<key>className</key>
@@ -888,6 +2652,48 @@
 			<key>uniqueIdentifier</key>
 			<string>7DF7A736-FE7C-4386-BF49-27937C62ED7A</string>
 		</dict>
+		<key>7E090A2C-5D3B-4F15-BCB7-A8938412E9C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7E090A2C-5D3B-4F15-BCB7-A8938412E9C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752211.99331105</real>
+			<key>timeStoppedRecording</key>
+			<real>758752212.52820003</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>7E090A2C-5D3B-4F15-BCB7-A8938412E9C4</string>
+		</dict>
 		<key>7E7A1487-7E7D-43C9-8B0F-D26C97AEEF17</key>
 		<dict>
 			<key>className</key>
@@ -929,6 +2735,216 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>7E7A1487-7E7D-43C9-8B0F-D26C97AEEF17</string>
+		</dict>
+		<key>8023CE65-1D94-4634-848C-0A664308AFDC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8023CE65-1D94-4634-848C-0A664308AFDC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752234.13748503</real>
+			<key>timeStoppedRecording</key>
+			<real>758752234.65983403</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>8023CE65-1D94-4634-848C-0A664308AFDC</string>
+		</dict>
+		<key>8093C2C5-80D1-433C-87F5-D1B3CEE606A2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8093C2C5-80D1-433C-87F5-D1B3CEE606A2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749549.625404</real>
+			<key>timeStoppedRecording</key>
+			<real>758749550.30726898</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>8093C2C5-80D1-433C-87F5-D1B3CEE606A2</string>
+		</dict>
+		<key>815793B2-BB09-4770-A9B1-F31CD57DDC2A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>815793B2-BB09-4770-A9B1-F31CD57DDC2A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741502.76650202</real>
+			<key>timeStoppedRecording</key>
+			<real>758741503.42344606</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>815793B2-BB09-4770-A9B1-F31CD57DDC2A</string>
+		</dict>
+		<key>89476BB3-FCA0-4126-BFEF-1057DE86778B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>89476BB3-FCA0-4126-BFEF-1057DE86778B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752565.69465005</real>
+			<key>timeStoppedRecording</key>
+			<real>758752566.48005295</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>89476BB3-FCA0-4126-BFEF-1057DE86778B</string>
+		</dict>
+		<key>8F03C486-E0F8-468D-8889-D3CC514EA449</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8F03C486-E0F8-468D-8889-D3CC514EA449.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752501.14339805</real>
+			<key>timeStoppedRecording</key>
+			<real>758752502.13398397</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>8F03C486-E0F8-468D-8889-D3CC514EA449</string>
 		</dict>
 		<key>95797439-6C8A-4A76-A6FC-6E1E0716BA75</key>
 		<dict>
@@ -1014,6 +3030,300 @@
 			<key>uniqueIdentifier</key>
 			<string>9A2A3ACA-45EF-40BA-A31C-DE9D87185ACC</string>
 		</dict>
+		<key>9C307E1E-9BA2-47D9-A669-8CA2B3CAEABD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C307E1E-9BA2-47D9-A669-8CA2B3CAEABD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749891.58218002</real>
+			<key>timeStoppedRecording</key>
+			<real>758749892.19237399</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>9C307E1E-9BA2-47D9-A669-8CA2B3CAEABD</string>
+		</dict>
+		<key>9FA837D6-AE9B-4BFA-9114-8AA514D753EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9FA837D6-AE9B-4BFA-9114-8AA514D753EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752101.63296199</real>
+			<key>timeStoppedRecording</key>
+			<real>758752102.27552295</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>9FA837D6-AE9B-4BFA-9114-8AA514D753EF</string>
+		</dict>
+		<key>A01FEB2D-3AC4-46E2-A5E2-D10588C1F52A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A01FEB2D-3AC4-46E2-A5E2-D10588C1F52A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749873.88065898</real>
+			<key>timeStoppedRecording</key>
+			<real>758749874.53968704</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>A01FEB2D-3AC4-46E2-A5E2-D10588C1F52A</string>
+		</dict>
+		<key>A0ED9131-F958-4863-8366-9CDD18CB8938</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0ED9131-F958-4863-8366-9CDD18CB8938.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741886.61135399</real>
+			<key>timeStoppedRecording</key>
+			<real>758741886.89479804</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>A0ED9131-F958-4863-8366-9CDD18CB8938</string>
+		</dict>
+		<key>AE01A9D3-79C4-4282-B423-3BA69079E4B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE01A9D3-79C4-4282-B423-3BA69079E4B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758751824.13894999</real>
+			<key>timeStoppedRecording</key>
+			<real>758751824.92853498</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>AE01A9D3-79C4-4282-B423-3BA69079E4B7</string>
+		</dict>
+		<key>B39BA994-668B-4D4C-A7C8-516D6B1BB747</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B39BA994-668B-4D4C-A7C8-516D6B1BB747.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752541.443151</real>
+			<key>timeStoppedRecording</key>
+			<real>758752542.23399305</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>B39BA994-668B-4D4C-A7C8-516D6B1BB747</string>
+		</dict>
+		<key>B424462F-A455-491F-9DED-6476964C8422</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B424462F-A455-491F-9DED-6476964C8422.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741465.76616001</real>
+			<key>timeStoppedRecording</key>
+			<real>758741466.301265</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>B424462F-A455-491F-9DED-6476964C8422</string>
+		</dict>
 		<key>B8008314-5820-41EA-B60D-9BD44D4D1A20</key>
 		<dict>
 			<key>className</key>
@@ -1055,6 +3365,174 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>B8008314-5820-41EA-B60D-9BD44D4D1A20</string>
+		</dict>
+		<key>BBC52E09-5BD8-4F9E-8D63-11E52013AE31</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BBC52E09-5BD8-4F9E-8D63-11E52013AE31.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752759.25060105</real>
+			<key>timeStoppedRecording</key>
+			<real>758752760.12332296</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>BBC52E09-5BD8-4F9E-8D63-11E52013AE31</string>
+		</dict>
+		<key>BE22CEB4-C9C8-4231-9C13-D30664092F28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BE22CEB4-C9C8-4231-9C13-D30664092F28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758753981.41217899</real>
+			<key>timeStoppedRecording</key>
+			<real>758753982.24600005</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>BE22CEB4-C9C8-4231-9C13-D30664092F28</string>
+		</dict>
+		<key>C285A952-ED38-44A1-915B-537A1BE16A28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C285A952-ED38-44A1-915B-537A1BE16A28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749448.02616704</real>
+			<key>timeStoppedRecording</key>
+			<real>758749448.862432</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C285A952-ED38-44A1-915B-537A1BE16A28</string>
+		</dict>
+		<key>C36EC3AA-51D9-4AA8-8C04-75197941BBAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C36EC3AA-51D9-4AA8-8C04-75197941BBAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741607.26221001</real>
+			<key>timeStoppedRecording</key>
+			<real>758741607.93703997</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C36EC3AA-51D9-4AA8-8C04-75197941BBAD</string>
 		</dict>
 		<key>C4AC8020-A3F7-4ACC-ABD8-4317534B5FCD</key>
 		<dict>
@@ -1139,6 +3617,216 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>C69B32CA-000C-4EE8-B31B-4CA6FBE09FEC</string>
+		</dict>
+		<key>C709F85D-51BB-4B92-8FE2-14BEDEA4F330</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C709F85D-51BB-4B92-8FE2-14BEDEA4F330.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741242.66878903</real>
+			<key>timeStoppedRecording</key>
+			<real>758741243.43083894</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C709F85D-51BB-4B92-8FE2-14BEDEA4F330</string>
+		</dict>
+		<key>C7C2D769-8F8D-4F36-8EAC-6F716355E2B1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C7C2D769-8F8D-4F36-8EAC-6F716355E2B1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758750876.63552403</real>
+			<key>timeStoppedRecording</key>
+			<real>758750877.44507694</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C7C2D769-8F8D-4F36-8EAC-6F716355E2B1</string>
+		</dict>
+		<key>C7C2F72E-4E7C-418F-9585-B9DEE055D25C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C7C2F72E-4E7C-418F-9585-B9DEE055D25C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741709.63837802</real>
+			<key>timeStoppedRecording</key>
+			<real>758741710.15663099</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C7C2F72E-4E7C-418F-9585-B9DEE055D25C</string>
+		</dict>
+		<key>CD7BB774-2683-4A5C-8C16-236C29C8DDDF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CD7BB774-2683-4A5C-8C16-236C29C8DDDF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752665.99650097</real>
+			<key>timeStoppedRecording</key>
+			<real>758752666.66813397</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>CD7BB774-2683-4A5C-8C16-236C29C8DDDF</string>
+		</dict>
+		<key>CE51F070-F39D-4FA8-B8C4-FE3A325B3601</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CE51F070-F39D-4FA8-B8C4-FE3A325B3601.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752588.44483399</real>
+			<key>timeStoppedRecording</key>
+			<real>758752589.133003</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>CE51F070-F39D-4FA8-B8C4-FE3A325B3601</string>
 		</dict>
 		<key>CED2DF36-A43E-4A3A-B641-DD915B288D1A</key>
 		<dict>
@@ -1266,6 +3954,48 @@
 			<key>uniqueIdentifier</key>
 			<string>D205542A-9F47-47EA-9C6B-FA1C736C0484</string>
 		</dict>
+		<key>D515FE56-A1FF-4B22-970C-DFED4FAD0515</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D515FE56-A1FF-4B22-970C-DFED4FAD0515.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758752164.84138596</real>
+			<key>timeStoppedRecording</key>
+			<real>758752165.539217</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>D515FE56-A1FF-4B22-970C-DFED4FAD0515</string>
+		</dict>
 		<key>D5278503-7394-4235-8479-89E2931EF6A0</key>
 		<dict>
 			<key>className</key>
@@ -1307,6 +4037,48 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>D5278503-7394-4235-8479-89E2931EF6A0</string>
+		</dict>
+		<key>D64BD349-E18D-4ECC-BE7E-3F289A634890</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D64BD349-E18D-4ECC-BE7E-3F289A634890.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758746793.24493802</real>
+			<key>timeStoppedRecording</key>
+			<real>758746794.08383</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>D64BD349-E18D-4ECC-BE7E-3F289A634890</string>
 		</dict>
 		<key>DCD52F3D-BEEB-4F4F-B8F8-16B8E0763A25</key>
 		<dict>
@@ -1434,6 +4206,90 @@
 			<key>uniqueIdentifier</key>
 			<string>EB2CF94B-28DD-4C10-ABAB-276AB28A3A35</string>
 		</dict>
+		<key>F2F849DF-B2DF-40C4-BD28-44B0ED5C9E03</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2F849DF-B2DF-40C4-BD28-44B0ED5C9E03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758747035.20254505</real>
+			<key>timeStoppedRecording</key>
+			<real>758747035.86829996</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>F2F849DF-B2DF-40C4-BD28-44B0ED5C9E03</string>
+		</dict>
+		<key>F5B631B1-F7F8-4F6C-A7C3-CE4358B2DAA5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F5B631B1-F7F8-4F6C-A7C3-CE4358B2DAA5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741427.61529303</real>
+			<key>timeStoppedRecording</key>
+			<real>758741427.94926906</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>F5B631B1-F7F8-4F6C-A7C3-CE4358B2DAA5</string>
+		</dict>
 		<key>F922F5AC-8755-4F41-9473-C339AFF99B57</key>
 		<dict>
 			<key>className</key>
@@ -1517,6 +4373,90 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>FA201B25-BF6B-45BC-898E-55772F2EE092</string>
+		</dict>
+		<key>FCCBA9D0-0349-4D72-BC1F-F8EA1D1B97D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FCCBA9D0-0349-4D72-BC1F-F8EA1D1B97D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758749389.22375703</real>
+			<key>timeStoppedRecording</key>
+			<real>758749389.73479795</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>FCCBA9D0-0349-4D72-BC1F-F8EA1D1B97D5</string>
+		</dict>
+		<key>FFE82B20-113A-49BD-BA1E-D7D1CDD4BCAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FFE82B20-113A-49BD-BA1E-D7D1CDD4BCAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758741903.15550804</real>
+			<key>timeStoppedRecording</key>
+			<real>758741903.39790702</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>FFE82B20-113A-49BD-BA1E-D7D1CDD4BCAD</string>
 		</dict>
 	</dict>
 </dict>
