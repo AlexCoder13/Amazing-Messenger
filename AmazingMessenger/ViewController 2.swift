@@ -64,7 +64,7 @@ class SecondViewController: UIViewController {
     
     private func setupConstraints() {
         upCenterLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
-        upCenterLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 155).isActive = true
+        upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         upCenterLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
         upCenterLabel.widthAnchor.constraint(equalToConstant: 81).isActive = true
         

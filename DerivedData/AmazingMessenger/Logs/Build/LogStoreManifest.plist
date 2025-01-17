@@ -972,6 +972,48 @@
 			<key>uniqueIdentifier</key>
 			<string>23B220EB-7B72-498E-8882-DF27A31DEAE5</string>
 		</dict>
+		<key>23E03D72-7AB9-43D2-9A32-4694AB570EE0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>23E03D72-7AB9-43D2-9A32-4694AB570EE0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754914.73823404</real>
+			<key>timeStoppedRecording</key>
+			<real>758754915.76083803</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>23E03D72-7AB9-43D2-9A32-4694AB570EE0</string>
+		</dict>
 		<key>2A2099F5-2D6D-4EA9-9563-1899772FDDDF</key>
 		<dict>
 			<key>className</key>
@@ -3407,6 +3449,48 @@
 			<string>Build AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>BBC52E09-5BD8-4F9E-8D63-11E52013AE31</string>
+		</dict>
+		<key>BBF0C756-A1CF-4A24-A19B-D0183DB2659A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BBF0C756-A1CF-4A24-A19B-D0183DB2659A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754660.94545496</real>
+			<key>timeStoppedRecording</key>
+			<real>758754661.04748595</real>
+			<key>title</key>
+			<string>Build AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>BBF0C756-A1CF-4A24-A19B-D0183DB2659A</string>
 		</dict>
 		<key>BE22CEB4-C9C8-4231-9C13-D30664092F28</key>
 		<dict>
