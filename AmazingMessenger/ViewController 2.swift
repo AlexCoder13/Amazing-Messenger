@@ -31,6 +31,29 @@ class SecondViewController: UIViewController {
         return nameLabel
     }()
     
+    private lazy var infoProfileLabel: UILabel = {
+        let infoProfileLabel = UILabel()
+        infoProfileLabel.text = "UX/UI designer, web designer Moscow, Russia"
+        infoProfileLabel.textColor = .lightGray
+        infoProfileLabel.numberOfLines = 2
+        infoProfileLabel.font = .systemFont(ofSize: 17)
+        infoProfileLabel.textAlignment = .center
+        infoProfileLabel.backgroundColor = .clear
+        infoProfileLabel.translatesAutoresizingMaskIntoConstraints = false
+        return infoProfileLabel
+    }()
+    
+//    private lazy var infoLocationProfileLabel: UILabel = {
+//        let infoLocationProfileLabel = UILabel()
+//        infoLocationProfileLabel.text = "Moscow, Russia"
+//        infoLocationProfileLabel.textColor = .lightGray
+//        infoLocationProfileLabel.font = .systemFont(ofSize: 17)
+//        infoLocationProfileLabel.textAlignment = .center
+//        infoLocationProfileLabel.backgroundColor = .clear
+//        infoLocationProfileLabel.translatesAutoresizingMaskIntoConstraints = false
+//        return infoLocationProfileLabel
+//    }()
+    
     private lazy var closeButton: UIButton = {
         let closeButton = UIButton()
         closeButton.setTitle("Close", for: .normal)
@@ -69,6 +92,16 @@ class SecondViewController: UIViewController {
         return viewImage
     }()
     
+    private lazy var mainImage: UIImageView = {
+        let mainImage = UIImageView()
+//        mainImage.frame.size.width = 150
+//        mainImage.frame.size.height = 150
+        mainImage.layer.cornerRadius = 75
+        mainImage.clipsToBounds = true
+        mainImage.translatesAutoresizingMaskIntoConstraints = false
+        return mainImage
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -80,12 +113,15 @@ class SecondViewController: UIViewController {
         
         view.addSubview(upCenterLabel)
         view.addSubview(nameLabel)
+        view.addSubview(infoProfileLabel)
+//        view.addSubview(infoLocationProfileLabel)
         
         view.addSubview(closeButton)
         view.addSubview(editButton)
         view.addSubview(addPhotoButton)
         
         view.addSubview(viewImage)
+        view.addSubview(mainImage)
     }
     
     private func setupConstraints() {
@@ -98,6 +134,15 @@ class SecondViewController: UIViewController {
         nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         nameLabel.heightAnchor.constraint(equalToConstant: 25).isActive = true
         nameLabel.widthAnchor.constraint(equalToConstant: 250).isActive = true
+        
+        infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 355).isActive = true
+        infoProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        infoProfileLabel.widthAnchor.constraint(equalToConstant: 227).isActive = true
+        
+//        infoLocationProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 378).isActive = true
+//        infoLocationProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        infoLocationProfileLabel.heightAnchor.constraint(equalToConstant: 25).isActive = true
+//        infoLocationProfileLabel.widthAnchor.constraint(equalToConstant: 250).isActive = true
         
         closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
         closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16).isActive = true
@@ -112,6 +157,11 @@ class SecondViewController: UIViewController {
         viewImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
         viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 90).isActive = true
         viewImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        
+        mainImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 90).isActive = true
+        mainImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        mainImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        mainImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
     }
     
     @objc private func pushCloseButton() {
@@ -124,7 +174,27 @@ class SecondViewController: UIViewController {
     
     @objc private func pushAddPhotoButton() {
         print("'Add Photo' button is pushed.")
+        
+        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+        let camera = UIAlertAction(title: "Сделать фото", style: .default) { (camera) in
+            print("Open the camera")
+        }
+        let gallery = UIAlertAction(title: "Выбрать из галереи", style: .default) { (gallery) in
+            print("Choose from the Gallery")
+            
+            let image = UIImage(named: "IMG_5878")
+            self.mainImage.image = image
+        }
+        let cancel = UIAlertAction(title: "Отмена", style: .cancel) { (cancel) in
+            print("'Cancel' button pushed.")
+        }
+            
+        alert.addAction(camera)
+        alert.addAction(gallery)
+        alert.addAction(cancel)
+        
+        self.present(alert, animated: true)
     }
-    
 }
 
