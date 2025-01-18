@@ -20,6 +20,17 @@ class SecondViewController: UIViewController {
         return upCenterLabel
     }()
     
+    private lazy var nameLabel: UILabel = {
+        let nameLabel = UILabel()
+        nameLabel.text = "Stephen Johnson"
+        nameLabel.textColor = .black
+        nameLabel.font = .boldSystemFont(ofSize: 22)
+        nameLabel.textAlignment = .center
+        nameLabel.backgroundColor = .clear
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        return nameLabel
+    }()
+    
     private lazy var closeButton: UIButton = {
         let closeButton = UIButton()
         closeButton.setTitle("Close", for: .normal)
@@ -40,6 +51,16 @@ class SecondViewController: UIViewController {
         return editButton
     }()
     
+    private lazy var addPhotoButton: UIButton = {
+        let addPhotoButton = UIButton()
+        addPhotoButton.setTitle("Add Photo", for: .normal)
+        addPhotoButton.setTitleColor(.systemBlue, for: .normal)
+        addPhotoButton.addTarget(self, action: #selector(pushAddPhotoButton), for: .touchUpInside)
+        addPhotoButton.translatesAutoresizingMaskIntoConstraints = false
+        addPhotoButton.backgroundColor = .clear
+        return addPhotoButton
+    }()
+    
     private lazy var viewImage: UIView = {
         let viewImage = UIView()
         viewImage.backgroundColor = .systemPink
@@ -56,9 +77,14 @@ class SecondViewController: UIViewController {
 
     private func setupView() {
         view.backgroundColor = .white
+        
         view.addSubview(upCenterLabel)
+        view.addSubview(nameLabel)
+        
         view.addSubview(closeButton)
         view.addSubview(editButton)
+        view.addSubview(addPhotoButton)
+        
         view.addSubview(viewImage)
     }
     
@@ -68,6 +94,10 @@ class SecondViewController: UIViewController {
         upCenterLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
         upCenterLabel.widthAnchor.constraint(equalToConstant: 81).isActive = true
         
+        nameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 320).isActive = true
+        nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        nameLabel.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        nameLabel.widthAnchor.constraint(equalToConstant: 250).isActive = true
         
         closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
         closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16).isActive = true
@@ -75,13 +105,13 @@ class SecondViewController: UIViewController {
         editButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
         editButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
         
+        addPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        addPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 260).isActive = true
+        
         viewImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
         viewImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
-        viewImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 90).isActive = true
+        viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 90).isActive = true
         viewImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-//        viewImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 155).isActive = true
-//        viewImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 155
-//        ).isActive = true
     }
     
     @objc private func pushCloseButton() {
@@ -90,6 +120,10 @@ class SecondViewController: UIViewController {
     
     @objc private func pushEditButton() {
         print("'Edit' button is pushed.")
+    }
+    
+    @objc private func pushAddPhotoButton() {
+        print("'Add Photo' button is pushed.")
     }
     
 }

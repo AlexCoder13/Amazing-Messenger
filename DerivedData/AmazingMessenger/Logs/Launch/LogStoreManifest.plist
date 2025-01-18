@@ -433,6 +433,67 @@
 			<key>uniqueIdentifier</key>
 			<string>15BEF176-AA24-4DDE-944A-5224DF6A9E71</string>
 		</dict>
+		<key>16704C76-B25A-4FBB-82A3-6A7B2CBE563B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>40FCCDD4-3602-4FF1-9766-A4F0ADCAEA69</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_11-59-06-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883546.683761</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>16704C76-B25A-4FBB-82A3-6A7B2CBE563B</string>
+		</dict>
 		<key>169012DC-E2AB-40FE-A283-CF0BF3B2A17C</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -920,6 +981,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>2489E3A5-3C7E-4DBC-BDEB-104AB9323FF3</string>
+		</dict>
+		<key>266C6417-9A97-4EF9-9F2D-410E182BBAA7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>AD152A29-51F2-4C9F-AB95-0014BC2FF606</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_12-06-39-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883999.07870102</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>266C6417-9A97-4EF9-9F2D-410E182BBAA7</string>
 		</dict>
 		<key>28144B4D-D37F-4154-9B03-D4AB9B2436FC</key>
 		<dict>
@@ -1592,6 +1714,67 @@
 			<key>uniqueIdentifier</key>
 			<string>445A6479-4437-4E30-BCA4-3DDA7BE0CC15</string>
 		</dict>
+		<key>4707D4F9-C2D3-4DE3-A2E6-CD0890BBAD76</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1B69EE96-F69C-4EAF-B4D9-2999AA744D9E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_11-51-37-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883097.78926802</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>4707D4F9-C2D3-4DE3-A2E6-CD0890BBAD76</string>
+		</dict>
 		<key>475CF99E-49C6-459E-854F-56C4E96FFCFB</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2018,6 +2201,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>5559E302-8C79-482C-83FD-A818BFCBBF12</string>
+		</dict>
+		<key>56B76F3B-7040-4534-B75D-62DAA972C2D4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>23E03D72-7AB9-43D2-9A32-4694AB570EE0</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.17_00-15-14-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758754914.73789406</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>56B76F3B-7040-4534-B75D-62DAA972C2D4</string>
 		</dict>
 		<key>5A4CE644-646F-4142-9801-B250D7DA0733</key>
 		<dict>
@@ -2507,6 +2751,67 @@
 			<key>uniqueIdentifier</key>
 			<string>64BE111C-1C76-44F2-BC2D-58F0A06358C7</string>
 		</dict>
+		<key>656D6044-05CA-43A7-A9F7-5B2AA079B486</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>155D42EB-A01B-4E34-A198-376B4EF27230</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_11-50-45-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883045.39264405</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>656D6044-05CA-43A7-A9F7-5B2AA079B486</string>
+		</dict>
 		<key>69305628-69DF-42C0-B383-5FDE5CCEF5A0</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2811,6 +3116,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>6F73C039-8684-4F08-84BF-86093F66A122</string>
+		</dict>
+		<key>718B7594-2D22-42C3-B275-D724E6C7557A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F4ADA3A1-8321-4F72-94EC-80A6722A00F5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_12-07-01-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758884021.42942595</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>718B7594-2D22-42C3-B275-D724E6C7557A</string>
 		</dict>
 		<key>755788FB-EE70-4645-AC15-8139BED54D7A</key>
 		<dict>
@@ -3361,6 +3727,67 @@
 			<key>uniqueIdentifier</key>
 			<string>82EBED5F-19B4-463C-9835-154B360B1682</string>
 		</dict>
+		<key>845EC770-BC28-4E89-AC28-FD474E78DE34</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>DFA56E8B-9E36-4622-9D47-A0934F1BE39E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_00-50-43-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758843443.75721002</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>845EC770-BC28-4E89-AC28-FD474E78DE34</string>
+		</dict>
 		<key>853BAA05-9B25-49E4-8DE5-7EF16CFAFFEC</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -3910,6 +4337,67 @@
 			<key>uniqueIdentifier</key>
 			<string>93E54B44-2BEE-4BBB-B0A4-6E8BCA48A477</string>
 		</dict>
+		<key>9435F5B0-7340-42F0-B4C9-8B735D69E4C7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BB5CAA4A-D82E-4BC6-8D0A-F17C1A1E1102</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_11-55-25-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883325.29096901</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>9435F5B0-7340-42F0-B4C9-8B735D69E4C7</string>
+		</dict>
 		<key>947FE36D-5980-4E63-86B0-28E99D7CB58B</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -4336,6 +4824,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>9E5BA575-54D3-4E7C-9DEA-6310A22985BC</string>
+		</dict>
+		<key>A4C16D45-5213-46DB-BB6C-DAE2D9B20CD4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>FD1ACD72-0B2E-49FE-9F19-BFD2E500950E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_12-05-45-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883945.37773395</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>A4C16D45-5213-46DB-BB6C-DAE2D9B20CD4</string>
 		</dict>
 		<key>A5DB5691-75EC-4E91-A85D-FFECE74524AD</key>
 		<dict>
@@ -5069,6 +5618,67 @@
 			<key>uniqueIdentifier</key>
 			<string>BFA52124-EC1F-4A47-8B88-041085BBBB7D</string>
 		</dict>
+		<key>C259E89A-695C-4220-A42C-CA64DE07788F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>FB14C128-BCC0-485E-9C84-9216CB26B1D0</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_12-08-09-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758884089.97438502</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C259E89A-695C-4220-A42C-CA64DE07788F</string>
+		</dict>
 		<key>C4517548-8E6D-47BC-8CF2-7016F55AE66F</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -5129,6 +5739,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>C4517548-8E6D-47BC-8CF2-7016F55AE66F</string>
+		</dict>
+		<key>C81C781E-CC4B-48E9-9A3D-CEF6F1F708D5</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2822EBD4-40E2-4194-9191-EE0CFC9EE754</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_11-54-54-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758883294.74173498</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>C81C781E-CC4B-48E9-9A3D-CEF6F1F708D5</string>
 		</dict>
 		<key>C8A1DA43-E2AE-4E41-A08A-1FF389F656E7</key>
 		<dict>
@@ -6044,6 +6715,67 @@
 			<string>Run AmazingMessenger</string>
 			<key>uniqueIdentifier</key>
 			<string>E8E872E8-F2DC-4A41-AED1-F6BC8DC2F480</string>
+		</dict>
+		<key>E905BA18-A3E0-4A2E-8560-1EBB39744187</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4A1B67B4-940E-495D-ADE2-D79A1B09195B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-AmazingMessenger-2025.01.18_00-47-35-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmazingMessenger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmazingMessenger</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AmazingMessenger</string>
+			<key>timeStartedRecording</key>
+			<real>758843255.55806994</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run AmazingMessenger</string>
+			<key>uniqueIdentifier</key>
+			<string>E905BA18-A3E0-4A2E-8560-1EBB39744187</string>
 		</dict>
 		<key>EA8992E7-CC9B-490F-B514-B27410FE4A96</key>
 		<dict>
