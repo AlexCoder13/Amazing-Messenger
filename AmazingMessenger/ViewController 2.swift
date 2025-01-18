@@ -43,17 +43,6 @@ class SecondViewController: UIViewController {
         return infoProfileLabel
     }()
     
-//    private lazy var infoLocationProfileLabel: UILabel = {
-//        let infoLocationProfileLabel = UILabel()
-//        infoLocationProfileLabel.text = "Moscow, Russia"
-//        infoLocationProfileLabel.textColor = .lightGray
-//        infoLocationProfileLabel.font = .systemFont(ofSize: 17)
-//        infoLocationProfileLabel.textAlignment = .center
-//        infoLocationProfileLabel.backgroundColor = .clear
-//        infoLocationProfileLabel.translatesAutoresizingMaskIntoConstraints = false
-//        return infoLocationProfileLabel
-//    }()
-    
     private lazy var closeButton: UIButton = {
         let closeButton = UIButton()
         closeButton.setTitle("Close", for: .normal)
@@ -94,8 +83,6 @@ class SecondViewController: UIViewController {
     
     private lazy var mainImage: UIImageView = {
         let mainImage = UIImageView()
-//        mainImage.frame.size.width = 150
-//        mainImage.frame.size.height = 150
         mainImage.layer.cornerRadius = 75
         mainImage.clipsToBounds = true
         mainImage.translatesAutoresizingMaskIntoConstraints = false
@@ -114,7 +101,6 @@ class SecondViewController: UIViewController {
         view.addSubview(upCenterLabel)
         view.addSubview(nameLabel)
         view.addSubview(infoProfileLabel)
-//        view.addSubview(infoLocationProfileLabel)
         
         view.addSubview(closeButton)
         view.addSubview(editButton)
@@ -138,11 +124,6 @@ class SecondViewController: UIViewController {
         infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 355).isActive = true
         infoProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         infoProfileLabel.widthAnchor.constraint(equalToConstant: 227).isActive = true
-        
-//        infoLocationProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 378).isActive = true
-//        infoLocationProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-//        infoLocationProfileLabel.heightAnchor.constraint(equalToConstant: 25).isActive = true
-//        infoLocationProfileLabel.widthAnchor.constraint(equalToConstant: 250).isActive = true
         
         closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
         closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16).isActive = true
