@@ -31,13 +31,24 @@ class SecondViewController: UIViewController {
         return nameLabel
     }()
     
+    private lazy var initialsNameLabel: UILabel = {
+        let initialsNameLabel = UILabel()
+        initialsNameLabel.text = "SJ"
+        initialsNameLabel.textColor = .white
+        initialsNameLabel.font = .boldSystemFont(ofSize: 50)
+        initialsNameLabel.textAlignment = .center
+        initialsNameLabel.backgroundColor = .clear
+        initialsNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        return initialsNameLabel
+    }()
+    
     private lazy var infoProfileLabel: UILabel = {
         let infoProfileLabel = UILabel()
         infoProfileLabel.text = "UX/UI designer, web designer Moscow, Russia"
         infoProfileLabel.textColor = .lightGray
-        infoProfileLabel.numberOfLines = 2
         infoProfileLabel.font = .systemFont(ofSize: 17)
         infoProfileLabel.textAlignment = .center
+        infoProfileLabel.numberOfLines = 2
         infoProfileLabel.backgroundColor = .clear
         infoProfileLabel.translatesAutoresizingMaskIntoConstraints = false
         return infoProfileLabel
@@ -47,6 +58,8 @@ class SecondViewController: UIViewController {
         let closeButton = UIButton()
         closeButton.setTitle("Close", for: .normal)
         closeButton.setTitleColor(.systemBlue, for: .normal)
+        closeButton.titleLabel?.font = .systemFont(ofSize: 17)
+        closeButton.contentHorizontalAlignment = .left
         closeButton.addTarget(self, action: #selector(pushCloseButton), for: .touchUpInside)
         closeButton.translatesAutoresizingMaskIntoConstraints = false
         closeButton.backgroundColor = .clear
@@ -57,6 +70,8 @@ class SecondViewController: UIViewController {
         let editButton = UIButton()
         editButton.setTitle("Edit", for: .normal)
         editButton.setTitleColor(.systemBlue, for: .normal)
+        editButton.titleLabel?.font = .systemFont(ofSize: 17)
+        editButton.contentHorizontalAlignment = .right
         editButton.addTarget(self, action: #selector(pushEditButton), for: .touchUpInside)
         editButton.translatesAutoresizingMaskIntoConstraints = false
         editButton.backgroundColor = .clear
@@ -67,6 +82,7 @@ class SecondViewController: UIViewController {
         let addPhotoButton = UIButton()
         addPhotoButton.setTitle("Add Photo", for: .normal)
         addPhotoButton.setTitleColor(.systemBlue, for: .normal)
+        addPhotoButton.titleLabel?.font = .systemFont(ofSize: 17)
         addPhotoButton.addTarget(self, action: #selector(pushAddPhotoButton), for: .touchUpInside)
         addPhotoButton.translatesAutoresizingMaskIntoConstraints = false
         addPhotoButton.backgroundColor = .clear
@@ -75,7 +91,7 @@ class SecondViewController: UIViewController {
     
     private lazy var viewImage: UIView = {
         let viewImage = UIView()
-        viewImage.backgroundColor = .systemPink
+        viewImage.backgroundColor = .placeholderText
         viewImage.layer.cornerRadius = 75
         viewImage.translatesAutoresizingMaskIntoConstraints = false
         return viewImage
@@ -100,6 +116,7 @@ class SecondViewController: UIViewController {
         
         view.addSubview(upCenterLabel)
         view.addSubview(nameLabel)
+        view.addSubview(initialsNameLabel)
         view.addSubview(infoProfileLabel)
         
         view.addSubview(closeButton)
@@ -116,30 +133,43 @@ class SecondViewController: UIViewController {
         upCenterLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
         upCenterLabel.widthAnchor.constraint(equalToConstant: 81).isActive = true
         
-        nameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 320).isActive = true
+        nameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 308).isActive = true
         nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        nameLabel.heightAnchor.constraint(equalToConstant: 25).isActive = true
-        nameLabel.widthAnchor.constraint(equalToConstant: 250).isActive = true
+        nameLabel.heightAnchor.constraint(equalToConstant: 28).isActive = true
+        nameLabel.widthAnchor.constraint(equalToConstant: 181).isActive = true
         
-        infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 355).isActive = true
+        initialsNameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 140).isActive = true
+        initialsNameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        initialsNameLabel.heightAnchor.constraint(equalToConstant: 49).isActive = true
+        initialsNameLabel.widthAnchor.constraint(equalToConstant: 66).isActive = true
+        
+        infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 346).isActive = true
         infoProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         infoProfileLabel.widthAnchor.constraint(equalToConstant: 227).isActive = true
+        infoProfileLabel.heightAnchor.constraint(equalToConstant: 44).isActive = true
         
-        closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
+        closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
         closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16).isActive = true
+        closeButton.widthAnchor.constraint(equalToConstant: 105).isActive = true
+        closeButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
         
-        editButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
+        editButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
         editButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
+        editButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        editButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
+        
         
         addPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        addPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 260).isActive = true
+        addPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 262).isActive = true
+        addPhotoButton.widthAnchor.constraint(equalToConstant: 81).isActive = true
+        addPhotoButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
         
         viewImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
         viewImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
-        viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 90).isActive = true
+        viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88).isActive = true
         viewImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
-        mainImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 90).isActive = true
+        mainImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88).isActive = true
         mainImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         mainImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
         mainImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
@@ -154,22 +184,18 @@ class SecondViewController: UIViewController {
     }
     
     @objc private func pushAddPhotoButton() {
-        print("'Add Photo' button is pushed.")
         
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
         let camera = UIAlertAction(title: "Сделать фото", style: .default) { (camera) in
             print("Open the camera")
         }
+        
         let gallery = UIAlertAction(title: "Выбрать из галереи", style: .default) { (gallery) in
-            print("Choose from the Gallery")
-            
-            let image = UIImage(named: "IMG_5878")
-            self.mainImage.image = image
+            print("Open the Gallery")
         }
-        let cancel = UIAlertAction(title: "Отмена", style: .cancel) { (cancel) in
-            print("'Cancel' button pushed.")
-        }
+        
+        let cancel = UIAlertAction(title: "Отмена", style: .cancel)
             
         alert.addAction(camera)
         alert.addAction(gallery)
