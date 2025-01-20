@@ -114,6 +114,9 @@ class SecondViewController: UIViewController {
     private func setupView() {
         view.backgroundColor = .white
         
+        view.addSubview(viewImage)
+        view.addSubview(mainImage)
+        
         view.addSubview(upCenterLabel)
         view.addSubview(nameLabel)
         view.addSubview(initialsNameLabel)
@@ -122,9 +125,6 @@ class SecondViewController: UIViewController {
         view.addSubview(closeButton)
         view.addSubview(editButton)
         view.addSubview(addPhotoButton)
-        
-        view.addSubview(viewImage)
-        view.addSubview(mainImage)
     }
     
     private func setupConstraints() {
@@ -187,12 +187,15 @@ class SecondViewController: UIViewController {
         
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
-        let camera = UIAlertAction(title: "Сделать фото", style: .default) { (camera) in
+        let camera = UIAlertAction(title: "Сделать фото", style: .default) { _ in
             print("Open the camera")
         }
         
-        let gallery = UIAlertAction(title: "Выбрать из галереи", style: .default) { (gallery) in
-            print("Open the Gallery")
+        let gallery = UIAlertAction(title: "Выбрать из галереи", style: .default) { _ in
+            let imagePicker = UIImagePickerController()
+            imagePicker.sourceType = .photoLibrary
+            imagePicker.delegate = self
+            self.present(imagePicker, animated: true)
         }
         
         let cancel = UIAlertAction(title: "Отмена", style: .cancel)
@@ -205,3 +208,9 @@ class SecondViewController: UIViewController {
     }
 }
 
+extension SecondViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        mainImage.image = info[.originalImage] as? UIImage
+        dismiss(animated: true)
+    }
+}
