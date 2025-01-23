@@ -110,7 +110,7 @@ class SecondViewController: UIViewController {
         setupView()
         setupConstraints()
     }
-
+    
     private func setupView() {
         view.backgroundColor = .white
         
@@ -128,51 +128,53 @@ class SecondViewController: UIViewController {
     }
     
     private func setupConstraints() {
-        upCenterLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
-        upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        upCenterLabel.heightAnchor.constraint(equalToConstant: 22).isActive = true
-        upCenterLabel.widthAnchor.constraint(equalToConstant: 81).isActive = true
-        
-        nameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 308).isActive = true
-        nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        nameLabel.heightAnchor.constraint(equalToConstant: 28).isActive = true
-        nameLabel.widthAnchor.constraint(equalToConstant: 181).isActive = true
-        
-        initialsNameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 140).isActive = true
-        initialsNameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        initialsNameLabel.heightAnchor.constraint(equalToConstant: 49).isActive = true
-        initialsNameLabel.widthAnchor.constraint(equalToConstant: 66).isActive = true
-        
-        infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 346).isActive = true
-        infoProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        infoProfileLabel.widthAnchor.constraint(equalToConstant: 227).isActive = true
-        infoProfileLabel.heightAnchor.constraint(equalToConstant: 44).isActive = true
-        
-        closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
-        closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16).isActive = true
-        closeButton.widthAnchor.constraint(equalToConstant: 105).isActive = true
-        closeButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
-        
-        editButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17).isActive = true
-        editButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
-        editButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
-        editButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
-        
-        
-        addPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        addPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 262).isActive = true
-        addPhotoButton.widthAnchor.constraint(equalToConstant: 81).isActive = true
-        addPhotoButton.heightAnchor.constraint(equalToConstant: 22).isActive = true
-        
-        viewImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
-        viewImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
-        viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88).isActive = true
-        viewImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        
-        mainImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88).isActive = true
-        mainImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        mainImage.heightAnchor.constraint(equalToConstant: 150).isActive = true
-        mainImage.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        NSLayoutConstraint.activate([
+            upCenterLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17),
+            upCenterLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            upCenterLabel.heightAnchor.constraint(equalToConstant: 22),
+            upCenterLabel.widthAnchor.constraint(equalToConstant: 81),
+            
+            nameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 308),
+            nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            nameLabel.heightAnchor.constraint(equalToConstant: 28),
+            nameLabel.widthAnchor.constraint(equalToConstant: 181),
+            
+            initialsNameLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 140),
+            initialsNameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            initialsNameLabel.heightAnchor.constraint(equalToConstant: 49),
+            initialsNameLabel.widthAnchor.constraint(equalToConstant: 66),
+            
+            infoProfileLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 346),
+            infoProfileLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            infoProfileLabel.widthAnchor.constraint(equalToConstant: 227),
+            infoProfileLabel.heightAnchor.constraint(equalToConstant: 44),
+            
+            closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17),
+            closeButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16),
+            closeButton.widthAnchor.constraint(equalToConstant: 105),
+            closeButton.heightAnchor.constraint(equalToConstant: 22),
+            
+            editButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 17),
+            editButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16),
+            editButton.widthAnchor.constraint(equalToConstant: 30),
+            editButton.heightAnchor.constraint(equalToConstant: 22),
+            
+            
+            addPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            addPhotoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 262),
+            addPhotoButton.widthAnchor.constraint(equalToConstant: 81),
+            addPhotoButton.heightAnchor.constraint(equalToConstant: 22),
+            
+            viewImage.heightAnchor.constraint(equalToConstant: 150),
+            viewImage.widthAnchor.constraint(equalToConstant: 150),
+            viewImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88),
+            viewImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            
+            mainImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 88),
+            mainImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            mainImage.heightAnchor.constraint(equalToConstant: 150),
+            mainImage.widthAnchor.constraint(equalToConstant: 150)
+        ])
     }
     
     @objc private func pushCloseButton() {
@@ -196,10 +198,11 @@ class SecondViewController: UIViewController {
             imagePicker.sourceType = .photoLibrary
             imagePicker.delegate = self
             self.present(imagePicker, animated: true)
+            self.initialsNameLabel.isHidden = true
         }
         
         let cancel = UIAlertAction(title: "Отмена", style: .cancel)
-            
+        
         alert.addAction(camera)
         alert.addAction(gallery)
         alert.addAction(cancel)
