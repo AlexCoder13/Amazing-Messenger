@@ -18,37 +18,37 @@ class ViewController: UIViewController {
         return button
     }()
     
-    override func loadView() {
-        super.loadView()
-        print("- - Called method: \(#function)")
-    }
+//    override func loadView() {
+//        super.loadView()
+//        print("- - Called method: \(#function)")
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
         setupConstraints()
-        print("- - Called method: \(#function)")
+//        print("- - Called method: \(#function)")
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print("- - Called method: \(#function)")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("- - Called method: \(#function)")
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("- - Called method: \(#function)")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        print("- - Called method: \(#function)")
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        print("- - Called method: \(#function)")
+//    }
+//    
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        print("- - Called method: \(#function)")
+//    }
+//    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        print("- - Called method: \(#function)")
+//    }
+//    
+//    override func viewDidDisappear(_ animated: Bool) {
+//        super.viewDidDisappear(animated)
+//        print("- - Called method: \(#function)")
+//    }
     
     private func setupView() {
         view.backgroundColor = .white
