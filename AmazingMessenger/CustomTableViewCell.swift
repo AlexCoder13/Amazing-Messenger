@@ -43,11 +43,29 @@ final class CustomTableViewCell: UITableViewCell {
         return avatarView
     }()
     
+    private lazy var avatarImageView: UIImageView = {
+        let avatarImageView = UIImageView()
+//        avatarImageView.image = UIImage(named: <#T##String#>)
+        avatarImageView.layer.cornerRadius = 23
+        avatarImageView.clipsToBounds = true
+        avatarImageView.translatesAutoresizingMaskIntoConstraints = false
+        return avatarImageView
+    }()
+    
+    private lazy var statusView: UIView = {
+        let statusView = UIView()
+        statusView.backgroundColor = .systemGreen
+        statusView.layer.cornerRadius = 6
+        statusView.clipsToBounds = true
+        statusView.isHidden = false
+        statusView.translatesAutoresizingMaskIntoConstraints = false
+        return statusView
+    }()
+    
     private lazy var button: UIButton = {
         let button = UIButton()
-        button.frame.size.width = 44
-        button.frame.size.height = 44
-        button.setImage(UIImage(systemName: "plus"), for: .normal)
+        button.tintColor = .gray
+        button.setImage(UIImage(systemName: "arrow.right"), for: .normal)
         button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -69,6 +87,8 @@ final class CustomTableViewCell: UITableViewCell {
         contentView.addSubview(dateLabel)
         contentView.addSubview(messageLabel)
         contentView.addSubview(avatarView)
+        contentView.addSubview(avatarImageView)
+        contentView.addSubview(statusView)
         contentView.addSubview(button)
     }
     
@@ -94,10 +114,20 @@ final class CustomTableViewCell: UITableViewCell {
             avatarView.heightAnchor.constraint(equalToConstant: 45),
             avatarView.widthAnchor.constraint(equalToConstant: 45),
             
+            avatarImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
+            avatarImageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            avatarImageView.heightAnchor.constraint(equalToConstant: 45),
+            avatarImageView.widthAnchor.constraint(equalToConstant: 45),
+            
+            statusView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 49),
+            statusView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16),
+            statusView.heightAnchor.constraint(equalToConstant: 12),
+            statusView.widthAnchor.constraint(equalToConstant: 12),
+            
             button.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
             button.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 22.5),
-            button.heightAnchor.constraint(equalToConstant: 11),
-            button.widthAnchor.constraint(equalToConstant: 11)
+            button.heightAnchor.constraint(equalToConstant: 9),
+            button.widthAnchor.constraint(equalToConstant: 14)
         ])
     }
     
@@ -105,7 +135,7 @@ final class CustomTableViewCell: UITableViewCell {
         nameLabel.text = model.name
         dateLabel.text = model.date
         messageLabel.text = model.message
-//        statusView.isHidden = model.isOnline
+        statusView.isHidden = !model.isOnline
     }
     
     @objc

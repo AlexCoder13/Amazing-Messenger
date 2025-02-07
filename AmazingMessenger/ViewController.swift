@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     private lazy var button: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Go to next screen", for: .normal)
-        button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
+//        button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.backgroundColor = .clear
         return button
@@ -64,10 +64,10 @@ class ViewController: UIViewController {
         ])
     }
     
-    @objc private func pushButton() {
-        let controller = SecondViewController()
-        self.present(controller, animated: true)
-    }
+//    @objc private func pushButton() {
+//        let controller = SecondViewController()
+//        self.present(controller, animated: true)
+//    }
     
 }
 

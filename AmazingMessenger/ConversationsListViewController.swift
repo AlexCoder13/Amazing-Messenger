@@ -9,6 +9,13 @@ import UIKit
 
 class ConversationsListViewController: UIViewController {
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private var nameOnlineArray = ["Джейсон Стэтхем", "Криштиано Роналдо", "Мистер Бист", "Доменик Торетто", "Альбус Дамблдор", "Драко Малфой", "Хагрид", "Марти Макфлай", "Док", "Стив Джобс"]
+    private var nameOfflineArray = ["Северус Снегг", "Букля", "Бьюфорд Танон", "Стас", "Гена", "Турбо", "Дюша Метелкин", "Дядя Вася", "Петя РЕМОНТ ВАННОЙ", "Какой-то чел с остановки" ]
+    
     private lazy var chatLabel: UILabel = {
         let chatLabel = UILabel()
         chatLabel.text = "Chat"
@@ -20,6 +27,25 @@ class ConversationsListViewController: UIViewController {
         return chatLabel
     }()
     
+    private lazy var profileView: UIView = {
+        let profileView = UIView()
+        profileView.backgroundColor = .placeholderText
+        profileView.layer.cornerRadius = 16
+        profileView.clipsToBounds = true
+        profileView.translatesAutoresizingMaskIntoConstraints = false
+        return profileView
+    }()
+    
+    private lazy var profileButton: UIButton = {
+        let profileButton = UIButton()
+        profileButton.setTitle("SJ", for: .normal)
+        profileButton.backgroundColor = .red
+        profileButton.titleLabel?.font = .systemFont(ofSize: 14, weight: .regular)
+        profileButton.addTarget(self, action: #selector(pushpProfileButton), for: .touchUpInside)
+        profileButton.translatesAutoresizingMaskIntoConstraints = false
+        return profileButton
+    }()
+    
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
@@ -29,8 +55,12 @@ class ConversationsListViewController: UIViewController {
         return tableView
     }()
     
+    let rightButton = UIBarButtonItem(title: "SJ", style: .plain, target: ConversationsListViewController.self, action: #selector(pushpProfileButton))
+    override var navigationItem: UINavigationItem
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupView()
         setupConstraints()
     }
@@ -39,6 +69,8 @@ class ConversationsListViewController: UIViewController {
         view.backgroundColor = .white
         view.addSubview(chatLabel)
         view.addSubview(tableView)
+        view.addSubview(profileView)
+        view.addSubview(profileButton)
     }
     
     private func setupConstraints() {
@@ -48,12 +80,29 @@ class ConversationsListViewController: UIViewController {
             chatLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             chatLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 93),
             
+            profileView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
+            profileView.topAnchor.constraint(equalTo: view.topAnchor, constant: 54),
+            profileView.heightAnchor.constraint(equalToConstant: 32),
+            profileView.widthAnchor.constraint(equalToConstant: 32),
+            
+            profileButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
+            profileButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 94),
+            profileButton.heightAnchor.constraint(equalToConstant: 32),
+            profileButton.widthAnchor.constraint(equalToConstant: 32),
+            
             tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 149),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
+    
+    @objc private func pushpProfileButton() {
+        let secondVC = SecondViewController()
+        present(secondVC, animated: true)
+        print("Profile Button Pushed")
+    }
+    
 }
 
 
@@ -92,10 +141,24 @@ extension ConversationsListViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath) as? CustomTableViewCell else {
             return UITableViewCell()
         }
-        let name = "Name #\(indexPath.row)"
-        let message = "Message #\(indexPath.row)"
+        
+        
+        
+        var name: String
+        var isOnline: Bool
+        if indexPath.section == 0 {
+            isOnline = true
+            name = nameOnlineArray.randomElement() ?? "Name #\(indexPath.row)"
+        } else {
+            isOnline = false
+            name = nameOfflineArray.randomElement() ?? "Name #\(indexPath.row)"
+        }
+        
+        
+        
+        let message = "Message #\(indexPath.row). Колян сказал написать больше текста - пишу больше текста."
         let date = "Date #\(indexPath.row)"
-        let model = ConversationCellModel(name: name, message: message, date: date, isOnline: true, hasUnreadMessages: false)
+        let model = ConversationCellModel(name: name, message: message, date: date, isOnline: isOnline, hasUnreadMessages: false)
         cell.configure(with: model)
         return cell
     }
