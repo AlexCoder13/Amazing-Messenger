@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class CustomTableViewCell: UITableViewCell {
+final class CustomTableViewCell: UITableViewCell, ConfigurableViewProtocol {
     
     private lazy var nameLabel: UILabel = {
         let nameLabel = UILabel()
@@ -45,7 +45,7 @@ final class CustomTableViewCell: UITableViewCell {
     
     private lazy var avatarImageView: UIImageView = {
         let avatarImageView = UIImageView()
-//        avatarImageView.image = UIImage(named: <#T##String#>)
+        //        avatarImageView.image = UIImage(named: <#T##String#>)
         avatarImageView.layer.cornerRadius = 23
         avatarImageView.clipsToBounds = true
         avatarImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -65,7 +65,7 @@ final class CustomTableViewCell: UITableViewCell {
     private lazy var button: UIButton = {
         let button = UIButton()
         button.tintColor = .gray
-        button.setImage(UIImage(systemName: "arrow.right"), for: .normal)
+        button.setImage(UIImage(systemName: "chevron.right"), for: .normal)
         button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -136,6 +136,13 @@ final class CustomTableViewCell: UITableViewCell {
         dateLabel.text = model.date
         messageLabel.text = model.message
         statusView.isHidden = !model.isOnline
+        if model.hasUnreadMessages == false {
+            messageLabel.font = .boldSystemFont(ofSize: 15)
+            messageLabel.textColor = .black
+        } else {
+            messageLabel.font = .systemFont(ofSize: 15)
+            messageLabel.textColor = .gray
+        }
     }
     
     @objc
@@ -156,6 +163,12 @@ struct ConversationCellModel {
         self.message = message
         self.date = date
         self.isOnline = isOnline
-        self.hasUnreadMessages = hasUnreadMessages
+        self.hasUnreadMessages = Bool.random()
     }
+}
+
+
+protocol ConfigurableViewProtocol {
+    associatedtype ConfigurationModel
+    func configure(with model: ConfigurationModel)
 }
