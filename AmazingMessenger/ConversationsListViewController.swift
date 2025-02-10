@@ -11,6 +11,7 @@ class ConversationsListViewController: UIViewController {
     
     private var nameOnlineArray = ["Джейсон Стэтхем", "Криштиано Роналдо", "Мистер Бист", "Доменик Торетто", "Альбус Дамблдор", "Драко Малфой", "Хагрид", "Марти Макфлай", "Док", "Стив Джобс"]
     private var nameOfflineArray = ["Северус Снегг", "Букля", "Бьюфорд Танон", "Стас", "Гена", "Турбо", "Дюша Метелкин", "Дядя Вася", "Петя РЕМОНТ ВАННОЙ", "Какой-то чел с остановки" ]
+    private var chatOnlineMessages: [String?] = ["Да", "Ага, опять забил", "Привет! Меня зовут Джимми", "Главное - это семья", "Обожаю очкариков со шрамами", "Тебе конец Поттер!", nil, "Ух ты! Док! Сколько времени?", nil, nil]
     
     private lazy var chatLabel: UILabel = {
         let chatLabel = UILabel()
@@ -111,7 +112,7 @@ class ConversationsListViewController: UIViewController {
     
     @objc
     private func pushpSettingsButton() {
-        print("Settings Button is pushed")
+        print("Settings Button pushed")
     }
     
 }
@@ -154,17 +155,19 @@ extension ConversationsListViewController: UITableViewDataSource {
         }
         
         var name: String
+        var message: String?
         var isOnline: Bool
         if indexPath.section == 0 {
             isOnline = true
             name = nameOnlineArray[indexPath.row]
+            message = chatOnlineMessages[indexPath.row]
         } else {
             isOnline = false
             name = nameOfflineArray[indexPath.row]
+            message = "Message #\(indexPath.row). Колян сказал написать больше текста - пишу больше текста."
         }
         
         
-        let message = "Message #\(indexPath.row). Колян сказал написать больше текста - пишу больше текста."
         let date = "Date #\(indexPath.row)"
         let model = ConversationCellModel(name: name, message: message, date: date, isOnline: isOnline, hasUnreadMessages: Bool.random())
         cell.configure(with: model)

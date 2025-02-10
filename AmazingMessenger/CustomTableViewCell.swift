@@ -143,6 +143,13 @@ final class CustomTableViewCell: UITableViewCell, ConfigurableViewProtocol {
             messageLabel.font = .systemFont(ofSize: 15)
             messageLabel.textColor = .gray
         }
+        
+        if messageLabel.text == nil {
+            messageLabel.text = "No messages yet..."
+            messageLabel.font = .italicSystemFont(ofSize: 15)
+            messageLabel.textColor = .black
+        }
+        
     }
     
     @objc
