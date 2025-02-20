@@ -83,6 +83,7 @@ class ConversationsListViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = rightButton
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .done, target: self, action: #selector(pushSettingsButton))
+        navigationItem.backButtonDisplayMode = .minimal
     }
     
     @objc
@@ -103,6 +104,8 @@ class ConversationsListViewController: UIViewController {
 extension ConversationsListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let conversationVC = ConversationViewController()
+        navigationController?.pushViewController(conversationVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
