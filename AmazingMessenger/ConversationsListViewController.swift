@@ -33,16 +33,6 @@ class ConversationsListViewController: UIViewController {
         return profileView
     }()
     
-    //    private lazy var profileButton: UIButton = {
-    //        let profileButton = UIButton()
-    //        profileButton.setTitle("SJ", for: .normal)
-    //        profileButton.backgroundColor = .red
-    //        profileButton.titleLabel?.font = .systemFont(ofSize: 14, weight: .regular)
-    //        profileButton.addTarget(self, action: #selector(pushpProfileButton), for: .touchUpInside)
-    //        profileButton.translatesAutoresizingMaskIntoConstraints = false
-    //        return profileButton
-    //    }()
-    
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
@@ -58,17 +48,7 @@ class ConversationsListViewController: UIViewController {
         setupView()
         setupConstraints()
         
-        let rightButton = UIBarButtonItem(title: "SJ", style: .plain, target: self, action: #selector(pushpProfileButton))
-        rightButton.tintColor = .white
-        self.navigationItem.rightBarButtonItem = rightButton
-        
-        //        let leftButton = UIBarButtonItem(customView: UIView)
-        
-        let leftButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(pushpSettingsButton))
-//        leftButton.customView?.heightAnchor.constraint(equalToConstant: 12).isActive = true
-//        leftButton.customView?.widthAnchor.constraint(equalToConstant: 12).isActive = true
-        self.navigationItem.leftBarButtonItem = leftButton
-        
+        configureBarButtons()
     }
     
     private func setupView() {
@@ -76,7 +56,6 @@ class ConversationsListViewController: UIViewController {
         view.addSubview(chatLabel)
         view.addSubview(tableView)
         view.addSubview(profileView)
-        //        view.addSubview(profileButton)
     }
     
     private func setupConstraints() {
@@ -84,23 +63,26 @@ class ConversationsListViewController: UIViewController {
             chatLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             chatLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             chatLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            chatLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 93),
+            chatLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 103),
             
             profileView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -9),
             profileView.topAnchor.constraint(equalTo: view.topAnchor, constant: 62),
             profileView.heightAnchor.constraint(equalToConstant: 32),
             profileView.widthAnchor.constraint(equalToConstant: 32),
             
-            //            profileButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
-            //            profileButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 54),
-            //            profileButton.heightAnchor.constraint(equalToConstant: 32),
-            //            profileButton.widthAnchor.constraint(equalToConstant: 32),
-            
             tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 149),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
+    }
+    
+    private func configureBarButtons() {
+        let rightButton = UIBarButtonItem(title: "SJ", style: .plain, target: self, action: #selector(pushpProfileButton))
+        rightButton.tintColor = .white
+        self.navigationItem.rightBarButtonItem = rightButton
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .done, target: self, action: #selector(pushSettingsButton))
     }
     
     @objc
@@ -111,7 +93,7 @@ class ConversationsListViewController: UIViewController {
     }
     
     @objc
-    private func pushpSettingsButton() {
+    private func pushSettingsButton() {
         print("Settings Button pushed")
     }
     
