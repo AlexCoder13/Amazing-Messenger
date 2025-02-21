@@ -9,6 +9,13 @@ import UIKit
 
 final class ConversationViewController: UIViewController {
     
+    private var messeges = [
+        MessageModel(text: "Привет, как дела?", fromMe: true, date: "11.01"),
+        MessageModel(text: "", fromMe: false, date: "11.04"),
+        MessageModel(text: "", fromMe: false, date: "11.11"),
+        MessageModel(text: "", fromMe: false, date: "11.13"),
+    ]
+    
     private lazy var upView: UIView = {
         let upView = UIView()
         upView.backgroundColor = .systemGray5
@@ -50,7 +57,8 @@ final class ConversationViewController: UIViewController {
         let tableView = UITableView()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "customMessegeCell")
+        tableView.separatorStyle = .singleLine
+        tableView.register(MessegeTableViewCell.self, forCellReuseIdentifier: "customMessegeCell")
         tableView.translatesAutoresizingMaskIntoConstraints = false
         return tableView
     }()
@@ -68,6 +76,7 @@ final class ConversationViewController: UIViewController {
         view.addSubview(avatarView)
         view.addSubview(avatarImageView)
         view.addSubview(profileNameLabel)
+        view.addSubview(tableView)
         
     }
     
@@ -92,6 +101,11 @@ final class ConversationViewController: UIViewController {
             profileNameLabel.widthAnchor.constraint(equalToConstant: 100),
             profileNameLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 113),
             profileNameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            
+            tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 157),
+            tableView.heightAnchor.constraint(equalToConstant: 294),
+            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
 }
@@ -99,7 +113,7 @@ final class ConversationViewController: UIViewController {
 
 extension ConversationViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 34
+        return UITableView.automaticDimension
     }
 }
 
@@ -109,13 +123,16 @@ extension ConversationViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        messeges.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let messegeCell = tableView.dequeueReusableCell(withIdentifier: "customMessegeCell", for: indexPath) as? CustomTableViewCell else {
+        guard let messegeCell = tableView.dequeueReusableCell(withIdentifier: "customMessegeCell", for: indexPath) as? MessegeTableViewCell else {
             return UITableViewCell()
         }
+        
+        let messegeModel = MessegeCellModel(text: "aaaaaaaaaaaaa", date: "11.01")
+        messegeCell.configure2(with: messegeModel)
         return messegeCell
     }
 }
