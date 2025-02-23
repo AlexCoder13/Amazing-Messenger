@@ -7,8 +7,7 @@
 
 import UIKit
 
-struct MessageModel {
+struct MessageCellModel {
     let text: String
-    let fromMe: Bool
     let date: String
 }
