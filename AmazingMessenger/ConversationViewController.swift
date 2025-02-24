@@ -10,11 +10,11 @@ import UIKit
 final class ConversationViewController: UIViewController {
     
     private var messages = [
-        MessageCellModel(text: "Здорова", date: "11:01"),
-        MessageCellModel(text: "Привет", date: "11:03"),
-        MessageCellModel(text: "Ну как там с деньгами", date: "11:05"),
-        MessageCellModel(text: "Какими деньгами", date: "11:06"),
-        MessageCellModel(text: "Которые я вложил... в КАПИТАЛ ПРО ЖИТ ОЧНОГО МИНИМУМА АХАХАХХАХАХАХАХХА", date: "11:15")
+        MessageCellModel(text: "Здорова", date: Date(), incomingMessage: true),
+        MessageCellModel(text: "ПриветПриветПриветПриветПриветПривет", date: Date(), incomingMessage: false),
+        MessageCellModel(text: "Ну как там с деньгами", date: Date(), incomingMessage: true),
+        MessageCellModel(text: "Какими деньгами", date: Date(), incomingMessage: false),
+        MessageCellModel(text: "Которые я вложил... в КАПИТАЛ ПРО ЖИТ ОЧНОГО МИНИМУМА АХАХАХХАХАХАХАХХА", date: Date(), incomingMessage: true)
     ]
     
     private lazy var upView: UIView = {
@@ -121,10 +121,14 @@ extension ConversationViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Today"
+    }
 }
 
 extension ConversationViewController: UITableViewDataSource {
-    func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView, indexPath: IndexPath) -> Int {
         return 1
     }
     

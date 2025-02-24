@@ -9,5 +9,6 @@ import UIKit
 
 struct MessageCellModel {
     let text: String
-    let date: String
+    let date: Date
+    let incomingMessage: Bool
 }

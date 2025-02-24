@@ -36,6 +36,16 @@ final class MessageCell: UITableViewCell, NewConfigurableViewProtocol {
         return timeLabel
     }()
     
+    private lazy var incomingConstraints: [NSLayoutConstraint] = [
+        bubbleView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
+        bubbleView.trailingAnchor.constraint(lessThanOrEqualTo: contentView.trailingAnchor, constant: -75)
+    ]
+    
+    private lazy var outgoingConstraints: [NSLayoutConstraint] = [
+        bubbleView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+        bubbleView.leadingAnchor.constraint(greaterThanOrEqualTo: contentView.leadingAnchor, constant: 75)
+    ]
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -59,8 +69,6 @@ final class MessageCell: UITableViewCell, NewConfigurableViewProtocol {
         NSLayoutConstraint.activate([
             bubbleView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 4),
             bubbleView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -4),
-            bubbleView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            bubbleView.trailingAnchor.constraint(lessThanOrEqualTo: contentView.trailingAnchor, constant: -20),
             
             messageLabel.topAnchor.constraint(equalTo: bubbleView.topAnchor, constant: 6),
             messageLabel.bottomAnchor.constraint(equalTo: bubbleView.bottomAnchor, constant: -6),
@@ -74,7 +82,22 @@ final class MessageCell: UITableViewCell, NewConfigurableViewProtocol {
     
     func configure(with model: MessageCellModel) {
         messageLabel.text = model.text
-        timeLabel.text = model.date
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
+        timeLabel.text = dateFormatter.string(from: model.date)
+        
+        NSLayoutConstraint.deactivate(incomingConstraints)
+        NSLayoutConstraint.deactivate(outgoingConstraints)
+        
+        if model.incomingMessage {
+            bubbleView.backgroundColor = .systemGray5
+            messageLabel.textColor = .black
+            timeLabel.textColor = .systemGray
+            NSLayoutConstraint.activate(incomingConstraints)
+        } else {
+            NSLayoutConstraint.activate(outgoingConstraints)
+        }
     }
 }
 
